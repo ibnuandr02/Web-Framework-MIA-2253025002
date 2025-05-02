@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
 
-    <title>selamat datang - KampusXplore Lampung</title>
+    <title>Universitas Lampung - KampusXplore Lampung</title>
 </head>
 
 <body>
@@ -113,28 +113,28 @@
                     <!-- featured Details -->
                     <section class="section" id="featured">
                         <div class="detail">
-                            <img src="./img/Lampungs-landmark-siger-tower.jpg" class="img-fluid" alt="...">
+                            <img src="./img/unila.jpg" class="img-fluid" alt="...">
                             <div class="post-cat mt-5">
                                 <a href="#" class="btn">Tentang</a>
-                                <a href="#" class="btn">KampusXplore Lampung</a>
+                                <a href="#" class="btn">Universitas Lampung</a>
                                 <div class="meta mt-3 ">
                                     <a class="profile" href="#"><i class="fas fa-user ml-2"></i>
-                                        <span>Drake</span>
+                                        <span>Admin</span>
                                     </a> -
                                     <span>Jum'at 14 Maret 2025</span>
                                 </div>
                             </div>
                             <div class="article mt-3">
-                                <h1>Selamat datang di KampusXplore Lampung</h1>
-                                <p class="mt-3">Lampung, sebagai salah satu provinsi di Pulau Sumatra, 
-                                    memiliki berbagai perguruan tinggi berkualitas yang siap mencetak generasi unggul. 
-                                    Dari universitas negeri hingga kampus swasta, 
-                                    setiap institusi pendidikan menawarkan keunggulan masing-masing yang dapat menjadi pilihan terbaik bagi calon mahasiswa.</p>
-                                <p>Melalui website ini, kami berkomitmen untuk menyajikan informasi yang akurat dan terbaru mengenai dunia perkuliahan di Lampung. 
-                                    Anda bisa menemukan profil lengkap setiap kampus, daftar program studi, fasilitas, serta informasi beasiswa yang dapat membantu Anda dalam menentukan pilihan terbaik. 
-                                    Kami juga menghadirkan berita dan update terkini seputar dunia pendidikan tinggi di Lampung, termasuk jadwal penerimaan mahasiswa baru, seminar akademik, hingga event kampus lainnya.</p>
-                                <p>Website ini dirancang khusus untuk membantu Anda, baik siswa yang sedang mencari perguruan tinggi, 
-                                    orang tua yang ingin mendapatkan informasi terbaik untuk anaknya, maupun tenaga pendidik yang ingin mengetahui lebih banyak tentang perkembangan kampus di Lampung.</p>
+                                <h1>Universitas Lampung</h1>
+                                <p class="mt-3">Universitas Lampung, atau yang lebih dikenal dengan Unila, 
+                                    merupakan perguruan tinggi negeri pertama di Provinsi Lampung. 
+                                    Berdiri sejak tahun 1965, Unila terus berkembang menjadi institusi pendidikan tinggi yang berperan penting dalam mencetak sumber daya manusia unggul di berbagai bidang. 
+                                    Kampus ini memiliki sembilan fakultas, di antaranya Fakultas Ilmu Sosial dan Ilmu Politik, Fakultas Hukum, Fakultas Pertanian, Fakultas Teknik, dan Fakultas Kedokteran. 
+                                    Unila dikenal aktif dalam kegiatan penelitian dan pengabdian masyarakat, serta memiliki kerja sama internasional yang menunjang kualitas akademik dan riset. 
+                                    Fasilitas kampus yang lengkap, suasana belajar yang kondusif, serta dukungan berbagai organisasi mahasiswa menjadikan Unila pilihan utama bagi banyak calon mahasiswa di Lampung dan sekitarnya. 
+                                    Dengan visi menjadi universitas sepuluh besar terbaik di Indonesia, Unila terus berkomitmen meningkatkan mutu pendidikan dan daya saing lulusannya di tingkat nasional maupun global.</p>
+                                <p></p>
+                                <p></p>
 
                                 <p></p>
                                 <p></p>
@@ -253,6 +253,7 @@
                             <button class="btn btn-outline-success" type="submit">Cari</button>
                         </form>
                     </div>
+                    
 
                     <div class="sidebar-left">
                         <h4 class="text-center">Follow Us</h4>

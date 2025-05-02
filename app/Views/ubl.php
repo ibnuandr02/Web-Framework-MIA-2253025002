@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
 
-    <title>selamat datang - KampusXplore Lampung</title>
+    <title>Universitas Bandar Lampung - KampusXplore Lampung</title>
 </head>
 
 <body>
@@ -113,28 +113,27 @@
                     <!-- featured Details -->
                     <section class="section" id="featured">
                         <div class="detail">
-                            <img src="./img/Lampungs-landmark-siger-tower.jpg" class="img-fluid" alt="...">
+                            <img src="./img/ubl.jpg" class="img-fluid" alt="...">
                             <div class="post-cat mt-5">
                                 <a href="#" class="btn">Tentang</a>
-                                <a href="#" class="btn">KampusXplore Lampung</a>
+                                <a href="#" class="btn">Universitas Bandar Lampung</a>
                                 <div class="meta mt-3 ">
                                     <a class="profile" href="#"><i class="fas fa-user ml-2"></i>
-                                        <span>Drake</span>
+                                        <span>Admin</span>
                                     </a> -
                                     <span>Jum'at 14 Maret 2025</span>
                                 </div>
                             </div>
                             <div class="article mt-3">
-                                <h1>Selamat datang di KampusXplore Lampung</h1>
-                                <p class="mt-3">Lampung, sebagai salah satu provinsi di Pulau Sumatra, 
-                                    memiliki berbagai perguruan tinggi berkualitas yang siap mencetak generasi unggul. 
-                                    Dari universitas negeri hingga kampus swasta, 
-                                    setiap institusi pendidikan menawarkan keunggulan masing-masing yang dapat menjadi pilihan terbaik bagi calon mahasiswa.</p>
-                                <p>Melalui website ini, kami berkomitmen untuk menyajikan informasi yang akurat dan terbaru mengenai dunia perkuliahan di Lampung. 
-                                    Anda bisa menemukan profil lengkap setiap kampus, daftar program studi, fasilitas, serta informasi beasiswa yang dapat membantu Anda dalam menentukan pilihan terbaik. 
-                                    Kami juga menghadirkan berita dan update terkini seputar dunia pendidikan tinggi di Lampung, termasuk jadwal penerimaan mahasiswa baru, seminar akademik, hingga event kampus lainnya.</p>
-                                <p>Website ini dirancang khusus untuk membantu Anda, baik siswa yang sedang mencari perguruan tinggi, 
-                                    orang tua yang ingin mendapatkan informasi terbaik untuk anaknya, maupun tenaga pendidik yang ingin mengetahui lebih banyak tentang perkembangan kampus di Lampung.</p>
+                                <h1>Universitas Bandar Lampung</h1>
+                                <p class="mt-3">Universitas Bandar Lampung (UBL) adalah perguruan tinggi swasta terkemuka di Provinsi Lampung yang telah berdiri sejak tahun 1984. 
+                                    UBL menawarkan pendidikan berkualitas tinggi dengan berbagai program studi jenjang sarjana hingga pascasarjana, 
+                                    yang mencakup bidang ekonomi, teknik, hukum, psikologi, ilmu komunikasi, dan banyak lagi. 
+                                    Dengan komitmen kuat terhadap pengembangan kompetensi akademik dan soft skill, UBL membekali mahasiswanya dengan pengalaman belajar yang aplikatif dan relevan dengan dunia kerja. 
+                                    Fasilitas kampus yang modern, dosen berpengalaman, serta jaringan kerja sama dengan berbagai instansi nasional dan internasional menjadikan UBL sebagai kampus pilihan yang mampu bersaing di tingkat global. 
+                                    Selain itu, UBL juga dikenal aktif dalam kegiatan kemahasiswaan, kewirausahaan, dan inovasi digital, mendorong terciptanya lulusan yang tidak hanya cerdas secara akademik, tetapi juga siap menjadi pemimpin di masa depan.</p>
+                                <p></p>
+                                <p></p>
 
                                 <p></p>
                                 <p></p>
@@ -253,6 +252,7 @@
                             <button class="btn btn-outline-success" type="submit">Cari</button>
                         </form>
                     </div>
+                    
 
                     <div class="sidebar-left">
                         <h4 class="text-center">Follow Us</h4>

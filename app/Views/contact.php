@@ -28,31 +28,25 @@
             </div>
             <!-- nav links -->
             <ul class="nav-links">
-                <li><a href="index.php">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href='/'\>Beranda</a></li>
+                <li><a href='/tentang'>Tentang</a></li>
+                <li><a href='/contact'>Kontak</a></li>
                 <div class="dropdown">
                     <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-expanded="false">
-                        Blog
+                        Universitas
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                        <li><a class="dropdown-item" href="category.html">Category</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Universitas yang ada di Lampung</a></li>
+                        <li><a class="dropdown-item" href="category.html">Kategori</a></li>
                         <li><a class="dropdown-item" href="detail.html">Detail</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
-                    <a class=" dropdown-toggle" href="#" role="button" id="UserDropdown" data-toggle="dropdown"
-                        aria-expanded="false">
-                        User
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="UserDropdown">
-                        <li><a class="dropdown-item" href="user.html">User</a></li>
-                        <li><a class="dropdown-item" href="login.html">login</a></li>
-                        <li><a class="dropdown-item" href="register.html">regster</a></li>
                     </ul>
                 </div>
             </ul>

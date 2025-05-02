@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tambah konten - KampusXplore</title>
+  <title>Edit Konten- KampusXplore</title>
   <style>
     * {
       margin: 0;
@@ -101,49 +101,65 @@
   </style>
 </head>
 <body>
-  <div class="container">
+    <div class="container">
     <div class="header">
-      <h1>Tambah Konten</h1>
+      <h1>Edit konten</h1>
     </div>
     
     <div class="form-container">
-      <form id="blogForm" enctype="multipart/form-data" action="<?= base_url('admin/save') ?>" method="post">
-      <?= csrf_field(); ?>
-        
+      <form id="blogForm" enctype="multipart/form-data" action="/admin/update/<?= $blog['id']; ?>" method="post">
+        <?= csrf_field(); ?>
+
+        <input type="hidden" name="gambarLama" value="<?= $blog['gambar']; ?>">
+
         <div class="form-group">
           <label for="judul">Nama Universitas</label>
-          <input type="text" class="form-control <?= session('errors.judul') ? 'is-invalid' : ''; ?>" id="judul" name="judul" placeholder="Nama Blog" value="<?= old('judul'); ?>">
-          <?php if(session('errors.judul')) : ?>
-            <div class="invalid-feedback">
-              <?= session('errors.judul'); ?>
-            </div>
-          <?php endif; ?>
-        </div>
-
-        <div class="form-group mb-3">
-          <label for="gambar">Gambar</label>
-          <div class="row mb-3 align-items-center">
-            <div class="col-sm-2">
-              <img src="/public/img/defaultuniv.jpg" class="img-thumbnail img-preview" id="preview-img">
-            </div>
-            <div class="col-sm-10">
-              <input type="file" class="form-control custom-file-label <?= session('errors.gambar') ? 'is-invalid' : ''; ?>" id="gambar" name="gambar" onchange="previewImg()">
-              <?php if(session('errors.gambar')) : ?>
-                <div class="invalid-feedback">
-                  <?= session('errors.gambar') ?>
-                </div>
-              <?php endif; ?>
-            </div>
+          <input 
+            type="text" 
+            id="judul" 
+            name="judul" 
+            class="<?= session('errors.judul') ? 'is-invalid' : ''; ?>" 
+            placeholder="Nama blog" 
+            value="<?= old('judul', $blog['judul']); ?>" 
+            autofocus
+          >
+          <div class="invalid-feedback">
+            <?= session('errors.judul') ?>
           </div>
         </div>
-        
+
         <div class="form-group">
-          <label for="blog-content">Isi konten</label>
-          <textarea id="blog-content" name="deskripsi"><?= old('deskripsi'); ?></textarea>
+          <label for="gambar">Gambar</label>
+          <div style="margin-bottom:10px;">
+            <!-- Preview gambar -->
+            <img src="/img/<?= old('gambar', $blog['gambar']); ?>" class="img-thumbnail img-preview" id="preview-img" style="max-width: 150px;">
+          </div>
+          <input 
+            type="file" 
+            class="<?= session('errors.gambar') ? 'is-invalid' : ''; ?>" 
+            id="gambar" 
+            name="gambar" 
+            onchange="previewImg()"
+          >
+          <div class="invalid-feedback">
+            <?= session('errors.gambar') ?>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="deskripsi">Isi konten</label>
+          <textarea 
+            id="deskripsi" 
+            name="deskripsi" 
+            class="<?= session('errors.deskripsi') ? 'is-invalid' : ''; ?>" 
+            placeholder="Isi konten blog"><?= old('deskripsi', $blog['deskripsi']); ?></textarea>
+          <div class="invalid-feedback">
+            <?= session('errors.deskripsi') ?>
+          </div>
         </div>
 
         <div class="button-group">
-          <a href="<?= base_url('/admin') ?>" class="cancel-button">Batal</a>
+          <a href="/admin" class="cancel-button">Batal</a>
           <button type="submit" class="save-button">Simpan Perubahan</button>
         </div>
       </form>
@@ -153,7 +169,7 @@
   <script>
     function previewImg() {
       const gambar = document.querySelector('#gambar');
-      const imgPreview = document.querySelector('.img-preview');
+      const imgPreview = document.querySelector('#preview-img');
 
       const fileGambar = new FileReader();
       fileGambar.readAsDataURL(gambar.files[0]);

@@ -129,19 +129,36 @@
         </thead>
         <tbody>
         <?php $i = 1; ?>
-           <?php foreach ($blog as $b) : ?> 
-          <tr>
-            <td><?= $i++;; ?></td>
-            <td><?= $b['judul']; ?></td>
-            <td><img src="/img/<?= $b['gambar']; ?>" width="50" class="rounded"></td>
-            <td><?= $b['deskripsi']; ?></td>
-            <td>
-              <button onclick="location.href='/admin/detail/<?= $b['slug']; ?>'" class="action-button detail-button">Detail</button>
-              <button class="action-button edit-button">Edit</button>
-              <button href="/create/delete <?= $b['id']; ?> class="action-button delete-button">Hapus </button>
-            </td>
-          </tr>
-          <?php endforeach; ?>
+        <?php foreach ($blog as $b) : ?> 
+<tr>
+    <td><?= $i++; ?></td>   
+    <td><?= $b['judul']; ?></td>
+    <td><img src="/img/<?= $b['gambar']; ?>" width="50" class="rounded"></td>
+    <td><?= $b['deskripsi']; ?></td>
+    <td>
+        <div style="display: flex; gap: 6px; align-items: center;">
+            <!-- Tombol Detail -->
+            <button onclick="location.href='/admin/detail/<?= $b['slug']; ?>'" class="action-button detail-button">
+                Detail
+            </button>
+
+            <!-- Tombol Edit -->
+            <button onclick="location.href='/admin/edit/<?= $b['slug']; ?>'" class="action-button edit-button">
+                Edit
+            </button>
+
+            <!-- Tombol Hapus -->
+            <form action="/admin/delete/<?= $b['id']; ?>" method="post" onsubmit="return confirm('Apakah anda yakin ingin menghapus?')">
+                <?= csrf_field(); ?>
+                <input type="hidden" name="_method" value="DELETE">
+                <button type="submit" class="action-button delete-button">
+                    <i class="fas fa-trash-alt"></i> Hapus
+                </button>
+            </form>
+        </div>
+    </td>
+</tr>
+<?php endforeach; ?>
         </tbody>
       </table>
     </div>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
 
-    <title>Universitas yang ada di Lampung - Darisset</title>
+    <title>Semua Universitas yang ada di Lampung</title>
 </head>
 
 <body>
@@ -28,25 +28,21 @@
             </div>
             <!-- nav links -->
             <ul class="nav-links">
-                <li><a href="index.php">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href='/'\>Beranda</a></li>
+                <li><a href='/tentang'>Tentang</a></li>
+                <li><a href='/contact'>Kontak</a></li>
                 <div class="dropdown">
                     <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-expanded="false">
-                        Blog
+                        Universitas
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Universitas yang ada di Lampung</a></li>
                         <li><a class="dropdown-item" href="category.html">Category</a></li>
                         <li><a class="dropdown-item" href="detail.html">Detail</a></li>
                     </ul>
                 </div>
-                <div class="dropdown">
-                    <a class=" dropdown-toggle" href="#" role="button" id="UserDropdown" data-toggle="dropdown"
-                        aria-expanded="false">
-                        User
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="UserDropdown">
@@ -120,7 +116,7 @@
         <div class="container ">
             <div class="row">
                 <div class="section-title mt-5">
-                    <h2>All Post</h2>
+                    <h2>Semua Universitas yang ada di Lampung</h2>
                     <div class="underline"></div>
                 </div>
                 <div class="col-lg-8 mb-5">
@@ -133,32 +129,30 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog1.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/unila'><img src="./img/unila.jpg" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="#">
-                                                    <h4>Tibet Adventure ?</h4>
+                                                <a href='/unila'    >
+                                                    <h4>Universitas Lampung</h4>
                                                 </a>
-                                                <a href="#">
+                                                <a href="category.html">
                                                     <p>Education</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Universitas Lampung, atau yang lebih dikenal dengan Unila, merupakan perguruan tinggi negeri pertama di Provinsi Lampung. Berdiri sejak tahun 1965, 
+                                            Unila terus berkembang menjadi institusi pendidikan tinggi yang berperan penting dalam mencetak . . . . .
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
-                                                <a href="#">
+                                                <a href="detail.html">
                                                     <p>Read More...</p>
                                                 </a>
                                             </div>
@@ -170,32 +164,31 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog2.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/itera'><img src="./img/itera.jpg" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="#">
-                                                    <h4>Tibet Adventure</h4>
+                                                <a href='/itera'>
+                                                    <h4>Institut Teknologi Sumatera</h4>
                                                 </a>
-                                                <a href="#">
-                                                    <p>Life Style</p>
+                                                <a href="category.html">
+                                                    <p>Technology</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Institut Teknologi Sumatera atau ITERA merupakan institusi pendidikan tinggi negeri yang berfokus pada pengembangan ilmu pengetahuan dan teknologi, 
+                                            khususnya di kawasan Sumatera. 
+                                            Diresmikan pada tahun 2014, ITERA menjadi bagian dari jaringan institut teknologi negeri bersama dengan ITB dan ITS . . . . . .
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
-                                                <a href="#">
+                                                <a href="detail.html">
                                                     <p>Read More...</p>
                                                 </a>
                                             </div>
@@ -207,32 +200,32 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog3.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/ubl'><img src="./img/ubl.jpg" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="#">
-                                                    <h4>Tibet Adventure</h4>
+                                                <a href='/ubl'>
+                                                    <h4>Universitas Bandar Lampung</h4>
                                                 </a>
-                                                <a href="#">
-                                                    <p>Journal</p>
+                                                <a href="category.html">
+                                                    <p>Law</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Universitas Bandar Lampung (UBL) adalah perguruan tinggi swasta 
+                                            terkemuka di Provinsi Lampung yang telah berdiri sejak tahun 1984. 
+                                            UBL menawarkan pendidikan berkualitas tinggi dengan berbagai program studi jenjang sarjana hingga pascasarjana, 
+                                            yang mencakup bidang ekonomi, teknik, hukum, psikologi, ilmu komunikasi, dan banyak lagi . . . . . 
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
-                                                <a href="#">
+                                                <a href="detail.html">
                                                     <p>Read More...</p>
                                                 </a>
                                             </div>
@@ -244,37 +237,37 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog3.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/unimal'><img src="./img/UNIMAL.JPG" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="#">
-                                                    <h4>Tibet Adventure</h4>
+                                                <a href='/unimal'>
+                                                    <h4>Universitas Bandar Lampung</h4>
                                                 </a>
-                                                <a href="#">
-                                                    <p>Journal</p>
+                                                <a href='/unimal'>
+                                                    <p>Medical</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Universitas Malahayati adalah salah satu perguruan tinggi swasta ternama di 
+                                            Provinsi Lampung yang berdiri sejak tahun 1994. Dikenal sebagai kampus yang memiliki 
+                                            fokus kuat di bidang kesehatan, Universitas Malahayati awalnya populer dengan Fakultas Kedokterannya
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
-                                                <a href="#">
+                                                <a href="detail.html">
                                                     <p>Read More...</p>
                                                 </a>
                                             </div>
                                         </div>
                                     </article>
+                                    <!-- end of single blog -->
                                     <!-- end of single blog -->
                                 </div>
 
@@ -282,7 +275,7 @@
                         </div>
                         <!-- end of blogs center -->
                         <div class="blog-btn mt-5">
-                            <a href="#" class="btn">all blogs</a>
+                            <a href="#" class="btn">all post</a>
                         </div>
                     </section>
                     <!-- end of featured blogs -->
@@ -441,28 +434,7 @@
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
-                    <!-- single card -->
-                    <article class="sidebar-left">
-                        <!-- img container -->
-                        <div class="service-img-container">
-                            <!-- img -->
-                            <img src="./img/profil.png" class="service-img" alt="single service" />
-                            <!-- service icon -->
-                            <span class="service-icon">
-                                <i class="fas fa-user fa-fw"></i>
-                            </span>
-                        </div>
-                        <!-- service info -->
-                        <div class="service-info">
-                            <h4>custom recipes</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                                labore sed deserunt, blanditiis error doloremque.
-                            </p>
-                            <a href="products.html" class="btn service-btn">read more</a>
-                        </div>
-                    </article>
-                    <!--end of  single card -->
+                    
 
                     <div class="sidebar-left">
                         <h4 class="text-center">Follow Us</h4>
@@ -506,17 +478,18 @@
                         </ul>
                     </div>
 
+                   
                     <article class="sidebar-left">
-                        <h4 class="text-center">Popular Posts</h4>
+                        <h4 class="text-center">Postingan populer</h4>
                         <div class="underline"></div>
                         <div class="pl-3 pr-3">
                             <a href="#" aria-current="true">
                                 <div class="row mb-3">
                                     <div class="col-4">
-                                        <img src="./img/blog1.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/UNILA.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>Lorem ipsum dolor sit</h5>
+                                        <h5>Universitas Lampung</h5>
                                         <span>San, 12 Jan 2020</span>
                                     </div>
                                 </div>
@@ -524,10 +497,10 @@
                             <a href="#" aria-current="true">
                                 <div class="row mb-4">
                                     <div class="col-4">
-                                        <img src="./img/blog2.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/ITERA.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>How it is django</h5>
+                                        <h5>Institut Teknologi Sumatera</h5>
                                         <span>San, 22 Jan 2020</span>
                                     </div>
                                 </div>
@@ -535,10 +508,10 @@
                             <a href="#" aria-current="true">
                                 <div class="row mb-4">
                                     <div class="col-4">
-                                        <img src="./img/blog3.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/UBL.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>What happened..?</h5>
+                                        <h5>Universitas Bandar Lampung</h5>
                                         <span>San, 14 Jan 2020</span>
                                     </div>
                                 </div>
@@ -546,10 +519,10 @@
                             <a href="#" aria-current="true">
                                 <div class="row mb-4">
                                     <div class="col-4">
-                                        <img src="./img/blog1.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/UNIMAL.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>First journal for me</h5>
+                                        <h5>Universitas Malahayati</h5>
                                         <span>San, 10 Mei 2020</span>
                                     </div>
                                 </div>
@@ -558,19 +531,19 @@
                     </article>
 
                     <article class="sidebar-left">
-                        <h4 class="text-center">Categories</h4>
+                        <h4 class="text-center">Kategori</h4>
                         <div class="underline"></div>
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Cras justo odio</a>
+                                <a href="#">Info Kampus</a>
                                 <span class="badge bg-primary rounded-pill">14</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Dapibus ac facilisis in</a>
+                                <a href="#">Beasiswa dan Karir</a>
                                 <span class="badge bg-primary rounded-pill">2</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Morbi leo risus</a>
+                                <a href="#">Inspirasi Mahasiswa</a>
                                 <span class="badge bg-primary rounded-pill">1</span>
                             </li>
                         </ul>

@@ -43,4 +43,20 @@ class Home extends BaseController
     {
         return view('apa');
     }
+
+    public function itera(): string
+    {
+        return view('itera');
+    }
+
+    public function ubl(): string
+    {
+        return view('ubl');
+    }
+
+    public function unila(): string
+    {
+        return view('unila');
+    }
+
 }

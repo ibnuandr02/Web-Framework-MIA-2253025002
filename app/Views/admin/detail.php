@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edit Blog - KampusXplore</title>
+  <title>Detail Blog - KampusXplore</title>
   <style>
     * {
       margin: 0;
@@ -103,14 +103,14 @@
 <body>
   <div class="container">
     <div class="header">
-      <h1>Edit Blog</h1>
+      <h1>Detail Konten</h1>
     </div>
     
     <div class="form-container">
       <form>
         
         <div class="form-group">
-          <label for="blog-title">Nama Blog</label>
+          <label for="blog-title">Nama Universitas</label>
           <p type="text" id="blog-title" value="Isi disini"><?= $blog['judul'] ; ?></p>
         </div>
         
@@ -125,7 +125,7 @@
         </div>
         
         <div class="form-group">
-          <label for="blog-content">Konten Blog</label>
+          <label for="blog-content">Isi konten</label>
           <textarea id="blog-content"readonly><?= $blog['deskripsi']; ?></textarea>
         </div>
         

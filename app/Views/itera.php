@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
 
-    <title>selamat datang - KampusXplore Lampung</title>
+    <title>Institut Teknologi Sumatera - KampusXplore Lampung</title>
 </head>
 
 <body>
@@ -113,28 +113,28 @@
                     <!-- featured Details -->
                     <section class="section" id="featured">
                         <div class="detail">
-                            <img src="./img/Lampungs-landmark-siger-tower.jpg" class="img-fluid" alt="...">
+                            <img src="./img/itera.jpg" class="img-fluid" alt="...">
                             <div class="post-cat mt-5">
                                 <a href="#" class="btn">Tentang</a>
-                                <a href="#" class="btn">KampusXplore Lampung</a>
+                                <a href="#" class="btn">Institut Teknologi Sumatera</a>
                                 <div class="meta mt-3 ">
                                     <a class="profile" href="#"><i class="fas fa-user ml-2"></i>
-                                        <span>Drake</span>
+                                        <span>Admin</span>
                                     </a> -
                                     <span>Jum'at 14 Maret 2025</span>
                                 </div>
                             </div>
                             <div class="article mt-3">
-                                <h1>Selamat datang di KampusXplore Lampung</h1>
-                                <p class="mt-3">Lampung, sebagai salah satu provinsi di Pulau Sumatra, 
-                                    memiliki berbagai perguruan tinggi berkualitas yang siap mencetak generasi unggul. 
-                                    Dari universitas negeri hingga kampus swasta, 
-                                    setiap institusi pendidikan menawarkan keunggulan masing-masing yang dapat menjadi pilihan terbaik bagi calon mahasiswa.</p>
-                                <p>Melalui website ini, kami berkomitmen untuk menyajikan informasi yang akurat dan terbaru mengenai dunia perkuliahan di Lampung. 
-                                    Anda bisa menemukan profil lengkap setiap kampus, daftar program studi, fasilitas, serta informasi beasiswa yang dapat membantu Anda dalam menentukan pilihan terbaik. 
-                                    Kami juga menghadirkan berita dan update terkini seputar dunia pendidikan tinggi di Lampung, termasuk jadwal penerimaan mahasiswa baru, seminar akademik, hingga event kampus lainnya.</p>
-                                <p>Website ini dirancang khusus untuk membantu Anda, baik siswa yang sedang mencari perguruan tinggi, 
-                                    orang tua yang ingin mendapatkan informasi terbaik untuk anaknya, maupun tenaga pendidik yang ingin mengetahui lebih banyak tentang perkembangan kampus di Lampung.</p>
+                                <h1>Institut Teknologi Sumatera</h1>
+                                <p class="mt-3">Institut Teknologi Sumatera atau ITERA merupakan institusi pendidikan tinggi negeri yang berfokus pada pengembangan ilmu pengetahuan dan teknologi, k
+                                    hususnya di kawasan Sumatera. Diresmikan pada tahun 2014, 
+                                    ITERA menjadi bagian dari jaringan institut teknologi negeri bersama dengan ITB dan ITS, 
+                                    dengan misi mencetak lulusan yang kompeten, kreatif, dan adaptif terhadap perkembangan zaman. 
+                                    Kampus ITERA berlokasi strategis di Kabupaten Lampung Selatan, dengan luas lahan yang mendukung pengembangan fasilitas modern seperti laboratorium riset, pusat inovasi, hingga ruang terbuka hijau yang luas. 
+                                    Program studi di ITERA didominasi oleh bidang teknik, sains, arsitektur, dan perencanaan wilayah. ITERA juga aktif dalam riset dan kolaborasi teknologi, baik dengan pemerintah, industri, maupun institusi internasional. 
+                                    Sebagai kampus yang masih berkembang pesat, ITERA menawarkan suasana pembelajaran yang dinamis, mendorong kreativitas mahasiswa, serta berorientasi pada pembangunan berkelanjutan di masa depan.</p>
+                                <p></p>
+                                <p></p>
 
                                 <p></p>
                                 <p></p>
@@ -253,6 +253,7 @@
                             <button class="btn btn-outline-success" type="submit">Cari</button>
                         </form>
                     </div>
+                    
 
                     <div class="sidebar-left">
                         <h4 class="text-center">Follow Us</h4>

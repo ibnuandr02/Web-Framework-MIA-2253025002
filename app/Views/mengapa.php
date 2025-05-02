@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
 
-    <title>Detail - KampusXplore Lampung</title>
+    <title>Mengapa - KampusXplore Lampung</title>
 </head>
 
 <body>
@@ -28,31 +28,21 @@
             </div>
             <!-- nav links -->
             <ul class="nav-links">
-                <li><a href="index.php">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href='/'\>Beranda</a></li>
+                <li><a href='/tentang'>Tentang</a></li>
+                <li><a href='/contact'>Kontak</a></li>
                 <div class="dropdown">
                     <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-expanded="false">
-                        Blog
+                        Universitas
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Universitas yang ada di Lampung</a></li>
                         <li><a class="dropdown-item" href="category.html">Category</a></li>
                         <li><a class="dropdown-item" href="detail.html">Detail</a></li>
                     </ul>
                 </div>
-                <div class="dropdown">
-                    <a class=" dropdown-toggle" href="#" role="button" id="UserDropdown" data-toggle="dropdown"
-                        aria-expanded="false">
-                        User
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="UserDropdown">
-                        <li><a class="dropdown-item" href="user.html">User</a></li>
-                        <li><a class="dropdown-item" href="login.html">login</a></li>
-                        <li><a class="dropdown-item" href="register.html">regster</a></li>
                     </ul>
                 </div>
             </ul>
@@ -142,14 +132,8 @@
                                     serta peluang kerja dan magang yang luas menjadikan Lampung semakin menarik bagi mahasiswa. Keanekaragaman budaya dan kehidupan sosial yang dinamis juga memberikan pengalaman berharga bagi mahasiswa dalam mengembangkan wawasan dan keterampilan. </p>
                                 <p>Dengan semua keunggulan ini, Lampung adalah tempat yang ideal untuk menempuh pendidikan tinggi dan meraih masa depan yang lebih cerah.</p>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ut vero corrupti
-                                    incidunt odit iusto neque, laboriosam suscipit sint blanditiis, illum quo itaque
-                                    nemo aliquid ad laudantium! Quae, nobis illo?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste quae aspernatur
-                                    quibusdam, beatae praesentium, veritatis nemo incidunt esse eos minus dolorum
-                                    deserunt ab! A dolorum maiores praesentium doloremque saepe, sit natus eligendi,
-                                    inventore tempore illo ratione debitis non impedit dignissimos fuga aperiam! Minima
-                                    obcaecati tempore alias eos iusto nihil!</p>
+                                <p></p>
+                                <p></p>
 
 
                                 <figcaption class="blockquote-footer mt-5">
@@ -265,29 +249,7 @@
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
-                    <!-- single card -->
-                    <article class="sidebar-left">
-                        <!-- img container -->
-                        <div class="service-img-container">
-                            <!-- img -->
-                            <img src="./img/profil.png" class="service-img" alt="single service" />
-                            <!-- service icon -->
-                            <span class="service-icon">
-                                <i class="fas fa-user fa-fw"></i>
-                            </span>
-                        </div>
-                        <!-- service info -->
-                        <div class="service-info">
-                            <h4>custom recipes</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                                labore sed deserunt, blanditiis error doloremque.
-                            </p>
-                            <a href="products.html" class="btn service-btn">read more</a>
-                        </div>
-                    </article>
-                    <!--end of  single card -->
-
+                    
                     <div class="sidebar-left">
                         <h4 class="text-center">Follow Us</h4>
                         <div class="underline"></div>
@@ -331,16 +293,16 @@
                     </div>
 
                     <article class="sidebar-left">
-                        <h4 class="text-center">Popular Posts</h4>
+                        <h4 class="text-center">Postingan populer</h4>
                         <div class="underline"></div>
                         <div class="pl-3 pr-3">
                             <a href="#" aria-current="true">
                                 <div class="row mb-3">
                                     <div class="col-4">
-                                        <img src="./img/blog1.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/UNILA.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>Lorem ipsum dolor sit</h5>
+                                        <h5>Universitas Lampung</h5>
                                         <span>San, 12 Jan 2020</span>
                                     </div>
                                 </div>
@@ -348,10 +310,10 @@
                             <a href="#" aria-current="true">
                                 <div class="row mb-4">
                                     <div class="col-4">
-                                        <img src="./img/blog2.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/ITERA.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>How it is django</h5>
+                                        <h5>Institut Teknologi Sumatera</h5>
                                         <span>San, 22 Jan 2020</span>
                                     </div>
                                 </div>
@@ -359,10 +321,10 @@
                             <a href="#" aria-current="true">
                                 <div class="row mb-4">
                                     <div class="col-4">
-                                        <img src="./img/blog3.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/UBL.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>What happened..?</h5>
+                                        <h5>Universitas Bandar Lampung</h5>
                                         <span>San, 14 Jan 2020</span>
                                     </div>
                                 </div>
@@ -370,10 +332,10 @@
                             <a href="#" aria-current="true">
                                 <div class="row mb-4">
                                     <div class="col-4">
-                                        <img src="./img/blog1.jpg" class="thumbnail" alt="...">
+                                        <img src="./img/UNIMAL.jpg" class="thumbnail" alt="...">
                                     </div>
                                     <div class="col-8 recent-post">
-                                        <h5>First journal for me</h5>
+                                        <h5>Universitas Malahayati</h5>
                                         <span>San, 10 Mei 2020</span>
                                     </div>
                                 </div>
@@ -382,19 +344,19 @@
                     </article>
 
                     <article class="sidebar-left">
-                        <h4 class="text-center">Categories</h4>
+                        <h4 class="text-center">Kategori</h4>
                         <div class="underline"></div>
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Cras justo odio</a>
+                                <a href="#">Info Kampus</a>
                                 <span class="badge bg-primary rounded-pill">14</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Dapibus ac facilisis in</a>
+                                <a href="#">Beasiswa dan Karir</a>
                                 <span class="badge bg-primary rounded-pill">2</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Morbi leo risus</a>
+                                <a href="#">Inspirasi Mahasiswa</a>
                                 <span class="badge bg-primary rounded-pill">1</span>
                             </li>
                         </ul>

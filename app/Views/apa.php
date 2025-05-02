@@ -28,31 +28,22 @@
             </div>
             <!-- nav links -->
             <ul class="nav-links">
-                <li><a href="index.php">Beranda</a></li>
-                <li><a href="about.html">Tentang</a></li>
-                <li><a href="contact.html">Kontak</a></li>
+                <li><a href='/'\>Beranda</a></li>
+                <li><a href='/tentang'>Tentang</a></li>
+                <li><a href='/contact'>Kontak</a></li>
                 <div class="dropdown">
                     <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-expanded="false">
-                        Blog
+                        Universitas
                     </a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Universitas yang ada di Lampung</a></li>
                         <li><a class="dropdown-item" href="category.html">Kategori</a></li>
                         <li><a class="dropdown-item" href="detail.html">Detail</a></li>
                     </ul>
                 </div>
-                <div class="dropdown">
-                    <a class=" dropdown-toggle" href="#" role="button" id="UserDropdown" data-toggle="dropdown"
-                        aria-expanded="false">
-                        User
-                    </a>
-
-                    <ul class="dropdown-menu" aria-labelledby="UserDropdown">
-                        <li><a class="dropdown-item" href="user.html">User</a></li>
-                        <li><a class="dropdown-item" href="login.html">login</a></li>
-                        <li><a class="dropdown-item" href="register.html">regster</a></li>
+                
                     </ul>
                 </div>
             </ul>
@@ -141,16 +132,10 @@
                                         Fasilitas & Beasiswa – Gambaran mengenai sarana dan prasarana di kampus, serta informasi beasiswa yang dapat membantu mahasiswa.</p>
                                 <p>Berita & Event Kampus – Update terbaru tentang kegiatan akademik, seminar, dan event penting di berbagai perguruan tinggi.
                                     Panduan Pendaftaran – Informasi mengenai jalur masuk universitas, syarat pendaftaran, dan jadwal seleksi.</p>
-                                <p>Lorem ipsum dolor sit amet</p>
+                                <p></p>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ut vero corrupti
-                                    incidunt odit iusto neque, laboriosam suscipit sint blanditiis, illum quo itaque
-                                    nemo aliquid ad laudantium! Quae, nobis illo?</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste quae aspernatur
-                                    quibusdam, beatae praesentium, veritatis nemo incidunt esse eos minus dolorum
-                                    deserunt ab! A dolorum maiores praesentium doloremque saepe, sit natus eligendi,
-                                    inventore tempore illo ratione debitis non impedit dignissimos fuga aperiam! Minima
-                                    obcaecati tempore alias eos iusto nihil!</p>
+                                <p></p>
+                                <p></p>
 
 
                                 <figcaption class="blockquote-footer mt-5">
@@ -266,28 +251,6 @@
                             <button class="btn btn-outline-success" type="submit">Cari</button>
                         </form>
                     </div>
-                    <!-- single card -->
-                    <article class="sidebar-left">
-                        <!-- img container -->
-                        <div class="service-img-container">
-                            <!-- img -->
-                            <img src="./img/profil.png" class="service-img" alt="single service" />
-                            <!-- service icon -->
-                            <span class="service-icon">
-                                <i class="fas fa-user fa-fw"></i>
-                            </span>
-                        </div>
-                        <!-- service info -->
-                        <div class="service-info">
-                            <h4>custom recipes</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-                                labore sed deserunt, blanditiis error doloremque.
-                            </p>
-                            <a href="products.html" class="btn service-btn">read more</a>
-                        </div>
-                    </article>
-                    <!--end of  single card -->
 
                     <div class="sidebar-left">
                         <h4 class="text-center">Follow Us</h4>
@@ -387,15 +350,15 @@
                         <div class="underline"></div>
                         <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Rekomendasi Universitas</a>
+                                <a href="#">Info Kampus</a>
                                 <span class="badge bg-primary rounded-pill">14</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Akreditasi Universitas</a>
+                                <a href="#">Beasiswa dan Karir</a>
                                 <span class="badge bg-primary rounded-pill">2</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="#">Fakultas</a>
+                                <a href="#">Inspirasi Mahasiswa</a>
                                 <span class="badge bg-primary rounded-pill">1</span>
                             </li>
                         </ul>

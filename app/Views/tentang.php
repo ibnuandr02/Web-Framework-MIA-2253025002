@@ -28,9 +28,9 @@
             </div>
             <!-- nav links -->
             <ul class="nav-links">
-                <li><a href='/'>Beranda</a></li>
-                <li><a href="about.html">Tentang</a></li>
-                <li><a href="contact.html">Kontak</a></li>
+                <li><a href='/'\>Beranda</a></li>
+                <li><a href='/tentang'>Tentang</a></li>
+                <li><a href='/contact'>Kontak</a></li>
                 <div class="dropdown">
                     <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                         aria-expanded="false">
@@ -111,8 +111,7 @@
                 </div>
                 <div class="section-center page-info">
                     <p>
-                        Website KampusXplore Lampung adalah platform digital yang menyediakan berbagai informasi seputar universitas dan perguruan tinggi di Lampung, 
-                        baik negeri maupun swasta. Situs ini bertujuan untuk membantu calon mahasiswa, orang tua, serta masyarakat umum dalam mendapatkan gambaran yang jelas mengenai dunia perkuliahan di Lampung.
+                    Website KampusXplore Lampung adalah platform digital yang menyediakan berbagai informasi seputar universitas dan perguruan tinggi di Lampung, baik negeri maupun swasta. Situs ini bertujuan untuk membantu calon mahasiswa, orang tua, serta masyarakat umum dalam mendapatkan gambaran yang jelas mengenai dunia perkuliahan di Lampung. KampusXplore Lampung menghadirkan profil kampus, program studi, jalur masuk, biaya kuliah, hingga tips dan pengalaman mahasiswa. Dengan antarmuka yang informatif dan mudah diakses, platform ini menjadi panduan terpercaya dalam menentukan pilihan pendidikan tinggi yang tepat di wilayah Lampung. Selain itu, KampusXplore Lampung juga rutin memperbarui konten dengan berita terkini, agenda kampus, serta peluang beasiswa untuk mendukung perjalanan akademik generasi muda.
                         <a href="https://www.KampusXplore Lampung.site">KampusXplore Lampung</a>
                     </p>
                 </div>

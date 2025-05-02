@@ -226,13 +226,13 @@
             <section class="section projects">
                 <!-- section title -->
                 <div class="section-title">
-                    <h2>Universitas yang ada di Lampung</h2>
+                    <h2>Universitas terkenal yang ada di Lampung</h2>
                     <div class="underline"></div>
                 </div>
                 <!-- end of section title -->
                 <div class="section-center projects-center">
                     <!-- single post -->
-                    <a href="detail.html" class="project-1">
+                    <a href='/itera' class="project-1">
                         <article class="project">
                             <img src="./img/ITERA.jpg" alt="" class="project-img" />
                             <div class="project-info">
@@ -254,7 +254,7 @@
                     </a>
                     <!-- end of single post -->
                     <!-- single post -->
-                    <a href="detail.html" class="project-3">
+                    <a href='/ubl' class="project-3">
                         <article class="project">
                             <img src="./img/UBL.jpg" alt="" class="project-img" />
                             <div class="project-info">
@@ -265,7 +265,7 @@
                     </a>
                     <!-- end of single project -->
                     <!-- single project -->
-                    <a href="detail.html" class="project-4">
+                    <a href='/unila' class="project-4">
                         <article class="project">
                             <img src="./img/UNILA.jpg" alt="" class="project-img" />
                             <div class="project-info">
@@ -295,12 +295,11 @@
                     <article class="service">
                         <a href="category.html">
                             <i class="fas fa-journal-whills ser-icon"></i>
-                            <h4>Journal</h4>
+                            <h4>Kabar Kampus</h4>
                             <div class="underline"></div>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-                                at repellendus eius omnis asperiores laborum reprehenderit quis
-                                pariatur quidem placeat.
+                            Dapatkan berita terbaru seputar aktivitas kampus di seluruh universitas di Lampung, 
+                            mulai dari event akademik, seminar, hingga pencapaian mahasiswa dan dosen.
                             </p>
                         </a>
                     </article>
@@ -310,12 +309,11 @@
                         <a href="category.html">
                             <!-- fa -->
                             <i class="fa fa-users ser-icon" aria-hidden="true"></i>
-                            <h4>Life Style</h4>
+                            <h4>Bagaimana cara menjadi mahasiswa</h4>
                             <div class="underline"></div>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-                                at repellendus eius omnis asperiores laborum reprehenderit quis
-                                pariatur quidem placeat.
+                            Dapatkan berita terbaru seputar aktivitas kampus di seluruh universitas di Lampung, 
+                            mulai dari event akademik, seminar, hingga pencapaian mahasiswa dan dosen.
                             </p>
                         </a>
                     </article>
@@ -325,12 +323,13 @@
                         <a href="category.html">
                             <!-- fab -->
                             <i class="fa fa-graduation-cap ser-icon"></i>
-                            <h4> Education</h4>
+                            <h4> Panduan Kuliah</h4>
                             <div class="underline"></div>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
-                                at repellendus eius omnis asperiores laborum reprehenderit quis
-                                pariatur quidem placeat.
+
+                            Berisi panduan lengkap untuk calon mahasiswa: 
+                            cara memilih jurusan, memahami sistem perkuliahan, 
+                            tips lulus tepat waktu, hingga strategi mendapatkan beasiswa.
                             </p>
                         </a>
                     </article>
@@ -362,29 +361,27 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog1.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/unila'><img src="./img/unila.jpg" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="detail.html">
-                                                    <h4>Tibet Adventure Lorem ipsum dolor</h4>
+                                                <a href='/unila'    >
+                                                    <h4>Universitas Lampung</h4>
                                                 </a>
                                                 <a href="category.html">
                                                     <p>Education</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Universitas Lampung, atau yang lebih dikenal dengan Unila, merupakan perguruan tinggi negeri pertama di Provinsi Lampung. Berdiri sejak tahun 1965, 
+                                            Unila terus berkembang menjadi institusi pendidikan tinggi yang berperan penting dalam mencetak . . . . .
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
                                                 <a href="detail.html">
@@ -399,29 +396,28 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog2.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/itera'><img src="./img/itera.jpg" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="detail.html">
-                                                    <h4>Tibet Adventure</h4>
+                                                <a href='/itera'>
+                                                    <h4>Institut Teknologi Sumatera</h4>
                                                 </a>
                                                 <a href="category.html">
-                                                    <p>Life Style</p>
+                                                    <p>Technology</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Institut Teknologi Sumatera atau ITERA merupakan institusi pendidikan tinggi negeri yang berfokus pada pengembangan ilmu pengetahuan dan teknologi, 
+                                            khususnya di kawasan Sumatera. 
+                                            Diresmikan pada tahun 2014, ITERA menjadi bagian dari jaringan institut teknologi negeri bersama dengan ITB dan ITS . . . . . .
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
                                                 <a href="detail.html">
@@ -436,29 +432,29 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog3.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/ubl'><img src="./img/ubl.jpg" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="detail.html">
-                                                    <h4>Tibet Adventure</h4>
+                                                <a href='/ubl'>
+                                                    <h4>Universitas Bandar Lampung</h4>
                                                 </a>
                                                 <a href="category.html">
-                                                    <p>Journal</p>
+                                                    <p>Law</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Universitas Bandar Lampung (UBL) adalah perguruan tinggi swasta 
+                                            terkemuka di Provinsi Lampung yang telah berdiri sejak tahun 1984. 
+                                            UBL menawarkan pendidikan berkualitas tinggi dengan berbagai program studi jenjang sarjana hingga pascasarjana, 
+                                            yang mencakup bidang ekonomi, teknik, hukum, psikologi, ilmu komunikasi, dan banyak lagi . . . . . 
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
                                                 <a href="detail.html">
@@ -473,29 +469,28 @@
                                     <!-- single blog -->
                                     <article class="blog-card">
                                         <div class="blog-img-container">
-                                            <a href="#"><img src="./img/blog3.jpg" class="blog-img" alt="" /></a>
-                                            <p class="blog-date">august 26th, 2020</p>
+                                            <a href='/unimal'><img src="./img/UNIMAL.JPG" class="blog-img" alt="" /></a>
                                         </div>
                                         <!-- blog info -->
                                         <div class="blog-info">
                                             <div class="blog-title">
-                                                <a href="detail.html">
-                                                    <h4>Tibet Adventure</h4>
+                                                <a href='/unimal'>
+                                                    <h4>Universitas Bandar Lampung</h4>
                                                 </a>
-                                                <a href="category.html">
-                                                    <p>Journal</p>
+                                                <a href='/unimal'>
+                                                    <p>Medical</p>
                                                 </a>
                                             </div>
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-                                                vitae tempore voluptatum maxime reprehenderit eum quod
-                                                exercitationem fugit, qui corporis.
+                                            Universitas Malahayati adalah salah satu perguruan tinggi swasta ternama di 
+                                            Provinsi Lampung yang berdiri sejak tahun 1994. Dikenal sebagai kampus yang memiliki 
+                                            fokus kuat di bidang kesehatan, Universitas Malahayati awalnya populer dengan Fakultas Kedokterannya
                                             </p>
                                             <!-- blog footer -->
                                             <div class="blog-footer">
                                                 <a href="">
                                                     <p>
-                                                        <span><i class="fas fa-user"></i></span> Darisset
+                                                        <span><i class="fas fa-user"></i></span> Admin
                                                     </p>
                                                 </a>
                                                 <a href="detail.html">
